@@ -77,3 +77,80 @@ h4{
 	background-image: url(./images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat;
 }
+@media(min-width: 600px){
+	body{
+		background-image: url(./images/bg-pattern-bottom-desktop.svg);
+	}
+	h2{
+		margin-top: 10%;
+		font-size: 3rem;
+		padding: 5%;
+	}
+	.header p{
+        line-height: 1.8rem;
+        text-align: left;
+        padding-bottom: 3%;
+	}
+	.flex-box{
+		display: flex;
+		flex-direction: row;
+	}
+	.flex-co{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 5% 2% 5% 2%;
+	}
+	.box{
+		width: 60%;
+		margin: 2%;
+	}
+	.flex-ro{
+		display: flex;
+		flex-direction: row;
+	}
+	.flex-ro img{
+		padding-top: 8% ;
+	}
+	div.margin-sc-left{
+		margin-left:20% ;
+	}
+	div.margin-th-left{
+		margin-left:40% ;
+	}
+	div.paddin-left{
+		padding-left: 2%;
+		padding-right: 1%;
+	}
+	.box-2{
+		display: flex;
+		flex-direction: row;
+	}
+	.flex-c{
+		margin: 2%;
+		height: 50%;
+	}
+	.flex-c img{
+		width: 15%;
+		height: 60%;
+		margin: 2% 4% 2% 4%;
+		border-radius:50%;
+		padding: 0  ;
+	}
+	.flex-r{
+		margin-top: 5%;
+	}
+	h3{
+		margin-top: 8%;
+	}
+	div.margin-sc-top{
+		margin-top: 5%;
+	}
+	div.margin-th-top{
+		margin-top: 7.5%;
+	}
+
+
+	
+
+}
